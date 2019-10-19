@@ -3,6 +3,60 @@ $(call inherit-product, vendor/lineage/config/common_mobile.mk)
 
 PRODUCT_SIZE := full
 
+# Accents
+PRODUCT_PACKAGES += \
+    Amber \
+    Black \
+    Blue \
+    BlueGrey \
+    Brown \
+    Cyan \
+    DeepOrange \
+    DeepPurple \
+    Green \
+    Grey \
+    Indigo \
+    LightBlue \
+    LightGreen \
+    Lime \
+    Orange \
+    Pink \
+    Purple \
+    Red \
+    Teal \
+    UserOne \
+    UserTwo \
+    UserThree \
+    UserFour \
+    UserFive \
+    UserSix \
+    UserSeven \
+    Yellow \
+    White
+
+# Brand Accents
+PRODUCT_PACKAGES += \
+    AospaGreen \
+    AndroidOneGreen \
+    CocaColaRed \
+    DiscordPurple \
+    FacebookBlue \
+    InstagramCerise \
+    JollibeeCrimson \
+    MonsterEnergyGreen \
+    NextbitMint \
+    OneplusRed \
+    PepsiBlue \
+    PocophoneYellow \
+    RazerGreen \
+    SamsungBlue \
+    SpotifyGreen \
+    StarbucksGreen \
+    TwitchPurple \
+    TwitterBlue \
+    XboxGreen \
+    XiaomiOrange
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
@@ -38,7 +92,6 @@ PRODUCT_PACKAGES += \
     StoropiaFont \
     SurferFont \
     UbuntuFont
-
 
 # Recorder
 PRODUCT_PACKAGES += \
