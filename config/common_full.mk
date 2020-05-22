@@ -10,8 +10,35 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+    AclonicaFont \
+    Amarante \
+    BariolFont \
+    CagliostroFont \
+    CoconFont \
+    ComfortaaFont \
+    ComicSansFont \
+    CoolstoryFont \
+    ExotwoFont \
+    Fifa2018Font \
+    GoogleSansFont \
+    GrandHotelFont \
+    LGSmartGothicFont \
     LineageLatoFont \
-    LineageRubikFont
+    LineageRubikFont \
+    NokiaPureFont \
+    NunitoFont \
+    OneplusSlateFont \
+    QuandoFont \
+    RedressedFont \
+    ReemKufiFont \
+    RosemaryFont \
+    RubikFont \
+    SamsungOneFont \
+    SonySketchFont \
+    StoropiaFont \
+    SurferFont \
+    UbuntuFont
+
 
 # Recorder
 PRODUCT_PACKAGES += \
