@@ -87,6 +87,7 @@ PRODUCT_PACKAGES += \
     QuandoFont \
     RedressedFont \
     ReemKufiFont \
+    RobotoCondensedFont \
     RosemaryFont \
     RubikFont \
     SamsungOneFont \
