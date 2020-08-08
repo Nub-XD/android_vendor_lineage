@@ -81,6 +81,7 @@ PRODUCT_PACKAGES += \
     LGSmartGothicFont \
     LineageLatoFont \
     LineageRubikFont \
+    LinotteFont \
     NokiaPureFont \
     NunitoFont \
     OneplusSlateFont \
