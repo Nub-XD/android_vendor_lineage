@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
     LinotteFont \
     NokiaPureFont \
     NunitoFont \
+    OneplusSansFont \
     OneplusSlateFont \
     OswaldFont \
     QuandoFont \
