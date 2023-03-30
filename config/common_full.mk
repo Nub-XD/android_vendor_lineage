@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     Amarante \
     BariolFont \
     CagliostroFont \
+    ClockFontCookieRun \
     CoconFont \
     ComfortaaFont \
     ComicSansFont \
