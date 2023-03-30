@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
     LineageRubikFont \
     LinotteFont \
     NokiaPureFont \
+    NothingDot57 \
     NunitoFont \
     OneplusSansFont \
     OneplusSlateFont \
