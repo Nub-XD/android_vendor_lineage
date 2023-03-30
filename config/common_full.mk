@@ -1,5 +1,6 @@
 # Inherit common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_mobile.mk)
+$(call inherit-product, vendor/addons/config.mk)
 
 PRODUCT_SIZE := full
 
