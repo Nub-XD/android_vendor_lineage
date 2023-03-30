@@ -78,6 +78,7 @@ PRODUCT_PACKAGES += \
     Fifa2018Font \
     GoogleSansFont \
     GrandHotelFont \
+    HarmonyFont \
     LGSmartGothicFont \
     LineageLatoFont \
     LineageRubikFont \
