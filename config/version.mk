@@ -1,18 +1,12 @@
 # Versioning System
 
-# ifndef HAVOC_BUILD_TYPE
-    # HAVOC_BUILD_TYPE := Unofficial
-# endif
-
-# Only include Havoc OTA for official builds
-#ifeq ($(filter-out Official,$(HAVOC_BUILD_TYPE)),)
-#    PRODUCT_PACKAGES += \
-#        Updater
-#endif
+ifndef HAVOC_BUILD_TYPE
+    HAVOC_BUILD_TYPE := Community
+endif
 
 #Build updater no matter what build type is!
 PRODUCT_PACKAGES += \
-        Updater
+    Updater
 
 
 TARGET_PRODUCT_SHORT := $(subst havoc_,,$(HAVOC_BUILD_TYPE))
@@ -23,8 +17,8 @@ HAVOC_FINGERPRINT := Havoc-OS/v$(HAVOC_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRO
 
 ifeq ($(WITH_GAPPS),true)
     HAVOC_BUILD_VARIANT = GApps
-    HAVOC_BUILD_VERSION := Havoc-OS-v$(HAVOC_VERSION)-$(shell date -u +%Y%m%d)-$(HAVOC_BUILD)-$(HAVOC_BUILD_TYPE)-GApps
 else
     HAVOC_BUILD_VARIANT = Vanilla
-    HAVOC_BUILD_VERSION := Havoc-OS-v$(HAVOC_VERSION)-$(shell date -u +%Y%m%d)-$(HAVOC_BUILD)-$(HAVOC_BUILD_TYPE)
 endif
+
+HAVOC_BUILD_VERSION := Havoc-OS-v$(HAVOC_VERSION)-$(shell date -u +%Y%m%d)-$(HAVOC_BUILD)-$(HAVOC_BUILD_TYPE)-$(HAVOC_BUILD_VARIANT)
