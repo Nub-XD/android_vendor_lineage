@@ -40,7 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Gapps
 ifeq ($(USE_GAPPS),true)
-include vendor/gapps/arm64/arm64-vendor.mk
+include vendor/gapps/gapps.mk
 endif
 
 #MicroG
