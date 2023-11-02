@@ -313,5 +313,9 @@ endif
 PRODUCT_PRODUCT_PROPERTIES += \
 	persist.sys.disable_rescue=true
 
+ifeq ($(GAPPS),true)
+        $(call inherit-product, vendor/gapps/gapps.mk)
+endif
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
