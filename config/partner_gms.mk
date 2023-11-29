@@ -10,6 +10,6 @@ $(call inherit-product-if-exists, vendor/partner_gms/products/gms_go_2gb.mk)
 else ifeq ($(WITH_GMS_MINIMAL),true)
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms_minimal.mk)
 else
-$(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 endif
 endif
